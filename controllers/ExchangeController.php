@@ -10,7 +10,7 @@ use app\extensions as E;
 
 class ExchangeController extends Controller
 {
-    public function beforeAction(){
+    public function beforeAction($action){
         if(Yii::$app->controller->action->id == 'getrates'){
             $this->enableCsrfValidation = false;
         }
