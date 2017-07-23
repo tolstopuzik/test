@@ -1,3 +1,3 @@
 <?php
 
-require 'basic\web\index.ph';
+// это не нужно =)
