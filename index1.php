@@ -1,3 +1,3 @@
 <?php
 
-require 'basic\web\index.ph';
+require 'basic\web\index.php';
